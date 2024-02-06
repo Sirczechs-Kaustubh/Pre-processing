@@ -17,6 +17,7 @@ For this week, we covered common pre-processing techniques applied during the ma
 
    import pandas as pd
    import numpy as np
+   import matplotlib.pyplot as plt
    import sys
   
    # pre-processing libraries
@@ -32,5 +33,18 @@ For this week, we covered common pre-processing techniques applied during the ma
    from sklearn.metrics import accuracy_score, f1_score, matthews_corrcoef
 
    # Class imbalance libraries
-   
+   from imblearn.under_sampling import RandomUnderSampler
+   from imblearn.over_sampling import RandomOverSampler, SMOTE ```
+
+4. Make sure the libraries are installed. On colab, you can execute a cell with !pip install followed by the code. For example: !pip install imbalanced-learn
+
+5. Once you've imported the relevant libraries, try the following
+   a. Upload the dataset and check for any missing values.Feel free to perform any other exploratory data analysis (EDA).
+   b. Assign the input features to X and the target to y
+   c. Compare the results of MLP when the dataset is unscaled vs scaled. Compare the accuracy, f1 score when the minority class is set as the positive class, and the MCC.
+   d. Compare the results of kNN when the dataset is unscaled vs scaled. Compare the accuracy, f1 score when the minority class is set as the positive class, and the MCC.
+
+   Note, make sure to use the make_pipeline function to avoid data leakage. For example:
+
+   ```Python scaled_mlp_pipeline = make_pipeline(StandardScaler(), MLPClassifier(random_state=42)) ```
    
