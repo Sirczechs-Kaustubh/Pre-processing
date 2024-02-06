@@ -46,5 +46,7 @@ For this week, we covered common pre-processing techniques applied during the ma
 
    Note, make sure to use the make_pipeline function to avoid data leakage. For example:
 
-   ```Python scaled_mlp_pipeline = make_pipeline(StandardScaler(), MLPClassifier(random_state=42)) ```
+   ```Python
+
+   scaled_mlp_pipeline = make_pipeline(StandardScaler(), MLPClassifier(random_state=42)) ```
    
