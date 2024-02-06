@@ -49,4 +49,6 @@ For this week, we covered common pre-processing techniques applied during the ma
    ```Python
 
    scaled_mlp_pipeline = make_pipeline(StandardScaler(), MLPClassifier(random_state=42)) ```
+
+   Donde es
    
