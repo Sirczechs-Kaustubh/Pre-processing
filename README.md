@@ -9,7 +9,7 @@ For this week, we covered common pre-processing techniques applied during the ma
 
 1. Clone the repo to github
 
-!git clone https://github.com/Dr-M-ELBA/Practical_4.git
+!git clone https://github.com/Dr-M-ELBA/Practical-4.git
 
 2. import the libraries
 
