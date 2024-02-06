@@ -2,7 +2,7 @@
 
 ## Introduction
 
-For this week, we covered common pre-processing techniques applied during the machine learning (ML) pipeline. For the practical, you will put some of these into practice. You will work with the <ins> Pima Indian Diabetes <ins> and the aim will be to compare the effects of pre-processing on two learners: k-nearest neighbor (kNN) and multi-layer perceptron (MLP). The pre-processing that you will apply will include scaling, under-sampling the majority class and over-sampling the minority class. Once you have finished, make sure to document your findings on github.
+For this week, we covered common pre-processing techniques applied during the machine learning (ML) pipeline. For the practical, you will put some of these into practice. You will work with the <ins>Pima Indian Diabetes</ins> and the aim will be to compare the effects of pre-processing on two learners: k-nearest neighbor (kNN) and multi-layer perceptron (MLP). The pre-processing that you will apply will include scaling, under-sampling the majority class and over-sampling the minority class. Once you have finished, make sure to document your findings on github.
 
 
 ## Lab Task 1
